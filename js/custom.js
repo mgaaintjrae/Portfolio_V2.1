@@ -121,8 +121,8 @@ $(function() {
         items:1,
         loop:true,
         mouseDrag:false,
-        autoplay:true,
-        smartSpeed:500
+        autoplay:false,
+        smartSpeed:1500
     });
 
 
