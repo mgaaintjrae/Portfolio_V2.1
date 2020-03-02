@@ -484,7 +484,7 @@ p {
   height: 100%;
   position: absolute;
   left: 0;
-  background: #d6b161;
+  background: var(--color-teal);
   -webkit-transition: all 1s;
   transition: all 1s;
 }
@@ -965,7 +965,8 @@ color: rgb(199, 199, 199);
                      Hire 
 -------------------------------------------------------- */
 .hire {
-  background-image: url(../img/3.jpg);
+  /* background-image: url(../img/3.jpg); */
+  background-color: var(--color-purple);
   background-attachment: fixed;
   background-size: cover;
   position: relative;
@@ -978,7 +979,7 @@ color: rgb(199, 199, 199);
   bottom: 0;
   right: 0;
   left: 0;
-  background: rgba(0, 0, 0, 0.8);
+  /* background: rgba(84, 18, 59); */
   z-index: 1;
 }
 
@@ -1003,12 +1004,12 @@ color: rgb(199, 199, 199);
   font-weight: 300;
 }
 
-/* .hire .content .botn {
+.hire .content .botn {
   font-size: 16px;
   padding: 8px 28px;
   margin: 5px;
-  background: #d6b161;
-  border: 1px solid #d6b161;
+  background: var(--color-teal);
+  border: 1px solid var(--color-teal);
   border-radius: 30px;
   -webkit-transition: all .5s;
   transition: all .5s;
@@ -1018,13 +1019,14 @@ color: rgb(199, 199, 199);
 }
 .hire .content .botn .icon {
   padding-left: 5px;
-} */
+}
+
 .resume .content .botn {
   font-size: 16px;
   padding: 8px 28px;
   margin: 5px;
-  background: #d6b161;
-  border: 1px solid #d6b161;
+  background: var(--color-teal);
+  border: 1px solid var(--color-teal);
   border-radius: 30px;
   -webkit-transition: all .5s;
   transition: all .5s;
@@ -1041,7 +1043,21 @@ color: rgb(199, 199, 199);
   padding-left: 5px;
 }
 
+.logo-itfy{
+  width: 75%;
+}
 
+.hire .item img {
+width: 40%;
+}
+
+.hire-service-title{
+color: var(--color-teal);
+}
+
+.hire p {
+  color: var(--color-white);
+}
 /* -------------------------------------------------------
                      Blog 
 -------------------------------------------------------- */
