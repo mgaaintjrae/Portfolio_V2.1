@@ -33,7 +33,7 @@ TABLE OF CONTENTS
   src: url("../fonts/vermin_vibes.ttf") format("opentype");
 }
 
-:root{
+:root {
   --color-white: #fff;
   --color-gold: #d6b161;
   --color-teal: #29c7ac;
@@ -214,12 +214,12 @@ p {
 }
 
 .navbar-default .navbar-nav>li>a {
-  margin: 0 15px!important;
+  margin: 0 15px !important;
   color: #eee !important;
   padding: 0 !important;
 }
 
-.navbar-default .navbar-nav>li>a:hover{
+.navbar-default .navbar-nav>li>a:hover {
   color: var(--color-teal) !important;
 }
 
@@ -738,7 +738,7 @@ p {
 .clients .owl-theme .owl-dots .owl-dot.active span,
 .clients .owl-theme .owl-dots .owl-dot:hover span {
   background: var(--color-teal);
-  border-color:var(--color-teal);
+  border-color: var(--color-teal);
 }
 
 /* -------------------------------------------------------
@@ -770,7 +770,7 @@ p {
   background: var(--color-purple);
 }
 
-.close{
+.close {
   text-shadow: 0 1px 0 #000 !important;
 }
 
@@ -781,20 +781,20 @@ p {
   margin-bottom: 20px;
 }
 
-.modal-subtitle{
+.modal-subtitle {
   color: var(--color-white);
 }
 
-.modal-body {  
+.modal-body {
   /* padding: 30px; */
   background: var(--color-snow-purple);
 }
 
-.modal-text{
-color: rgb(199, 199, 199);
+.modal-text {
+  color: rgb(199, 199, 199);
 }
 
-.modal-body .col-md-6 {  
+.modal-body .col-md-6 {
   padding-top: 30px;
 }
 
@@ -1004,7 +1004,8 @@ color: rgb(199, 199, 199);
   font-weight: 300;
 }
 
-.hire .content .botn {
+.hire .content .botn,
+.header .v-middle .botn {
   font-size: 16px;
   padding: 8px 28px;
   margin: 5px;
@@ -1014,10 +1015,20 @@ color: rgb(199, 199, 199);
   -webkit-transition: all .5s;
   transition: all .5s;
 }
-.hire .content .botn:hover {
+
+.header .v-middle .botn {
+  margin-top: 100px;
+  font-size: 25px;
+  padding: 13px 40px;
+}
+
+.hire .content .botn:hover,
+.header .v-middle .botn:hover {
   background: transparent;
 }
-.hire .content .botn .icon {
+
+.hire .content .botn .icon,
+.header .v-middle .botn .icon {
   padding-left: 5px;
 }
 
@@ -1043,21 +1054,22 @@ color: rgb(199, 199, 199);
   padding-left: 5px;
 }
 
-.logo-itfy{
-  width: 75%;
+.logo-itfy {
+  width: 80%;
 }
 
 .hire .item img {
-width: 40%;
+  width: 40%;
 }
 
-.hire-service-title{
-color: var(--color-teal);
+.hire-service-title {
+  color: var(--color-teal);
 }
 
 .hire p {
   color: var(--color-white);
 }
+
 /* -------------------------------------------------------
                      Blog 
 -------------------------------------------------------- */
@@ -1590,25 +1602,25 @@ color: var(--color-teal);
 /* -------------------------------------------------------
                     Footer
 -------------------------------------------------------- */
-.section-padding .mentions-legales:hover{
- color: #d6b161;
+.section-padding .mentions-legales:hover {
+  color:var(--color-teal);
 }
 
 /* -------------------------------------------------------
                     Mentions légales
 -------------------------------------------------------- */
-#mention_legal{
- /* color: #d6b161; */
- background: black;
- padding: 30px 0 30px 0;
+#mention_legal {
+  /* color: #d6b161; */
+  background: black;
+  padding: 30px 0 30px 0;
 }
 
-#mention_legal a:hover{
+#mention_legal a:hover {
   color: #816b3b;
 }
 
-#mention .title{
-      padding: 15px 0 15px 0;
+#mention .title {
+  padding: 15px 0 15px 0;
 }
 
 
@@ -1637,12 +1649,13 @@ color: var(--color-teal);
 
   .navbar-nav {
     margin: 51.5px -15px !important;
-}
+  }
 
   .navbar-default .navbar-nav li a {
     /* color: #111 !important; */
     color: rgb(175, 175, 175) !important;
   }
+
   .navbar-default .navbar-nav li a:hover {
     /* color: #111 !important; */
     color: var(--color-hover-teal) !important;
@@ -1704,8 +1717,8 @@ color: var(--color-teal);
     margin-bottom: 50px;
   }
 
-  #mention_legal #home{
-    width : 10%;
+  #mention_legal #home {
+    width: 10%;
   }
 }
 
