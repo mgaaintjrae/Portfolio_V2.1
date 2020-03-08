@@ -78,12 +78,25 @@ h6 {
 
 /* ----- vertical middle align ----*/
 
+.photo-profil {
+  width: auto;
+  height: auto;
+  position: absolute;
+  right: 60%;
+  top: 45%;
+  -webkit-transform: translate(0%, -50%);
+  -moz-transform: translate(0%, -50%);
+  -ms-transform: translate(0%, -50%);
+  -o-transform: translate(0%, -50%);
+  transform: translate(0%, -50%);
+}
+
 .v-middle {
   position: absolute;
   width: 100%;
   top: 45%;
-  /* left: 0; */
-  right: 20%;
+  left: 20%;
+  /* right: 20%; */
   -webkit-transform: translate(0%, -50%);
   -moz-transform: translate(0%, -50%);
   -ms-transform: translate(0%, -50%);
@@ -95,7 +108,7 @@ h6 {
   position: absolute;
   width: 100%;
   top: 45%;
-  left: 0;  
+  left: 0;
   -webkit-transform: translate(0%, -50%);
   -moz-transform: translate(0%, -50%);
   -ms-transform: translate(0%, -50%);
@@ -103,11 +116,15 @@ h6 {
   transform: translate(0%, -50%);
 }
 
-@media screen and (max-width: 1024px){
-  .v-middle{
-    left:0;
+@media screen and (max-width: 1024px) {
+  .v-middle {
+    left: 0;
+  }
+  .photo-profil{
+    display: none;
   }
 }
+
 /* ----- Clear-fix & Buttons ----*/
 
 .clear-fix {
