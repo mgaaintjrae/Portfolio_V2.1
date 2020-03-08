@@ -670,6 +670,22 @@ p {
   background: #f0f0f0;
 }
 
+.services .bord-hire {
+  border-right: 1px solid #f0f0f047;
+  border-left: 1px solid #f0f0f047;
+}
+
+.services .border-hire {
+  width: 100%;
+  margin: 10px auto;
+  height: 1px;
+  background: #f0f0f047;
+}
+
+.services .inscription{
+  text-align: center;
+}
+
 /* -------------------------------------------------------
                      Clients 
 -------------------------------------------------------- */
@@ -970,6 +986,7 @@ p {
   background-attachment: fixed;
   background-size: cover;
   position: relative;
+  color: #fff;
 }
 
 .hire:after {
@@ -1000,11 +1017,22 @@ p {
 }
 
 .hire .content h6 {
-  margin-bottom: 30px;
-  font-weight: 300;
+  line-height: 3rem;
+  /* margin-bottom: 30px; */
+  /* font-weight: 300; */
+}
+
+.hire .content h5{
+  color: var(--color-teal);
+}
+
+.hire .botn{
+margin-left: auto;
+margin-right: auto;
 }
 
 .hire .content .botn,
+.hire .botn,
 .header .v-middle .botn {
   font-size: 16px;
   padding: 8px 28px;
@@ -1016,6 +1044,12 @@ p {
   transition: all .5s;
 }
 
+.hire .botn{
+  font-size: 25px;
+  padding: 13px 80px;
+  margin-top: 10%;
+}
+
 .header .v-middle .botn {
   margin-top: 100px;
   font-size: 25px;
@@ -1023,11 +1057,13 @@ p {
 }
 
 .hire .content .botn:hover,
+.hire .botn:hover,
 .header .v-middle .botn:hover {
   background: transparent;
 }
 
 .hire .content .botn .icon,
+.hire .botn .icon,
 .header .v-middle .botn .icon {
   padding-left: 5px;
 }
@@ -1064,6 +1100,7 @@ p {
 
 .hire-service-title {
   color: var(--color-teal);
+  /* font-size: 25px; */
 }
 
 .hire p {
