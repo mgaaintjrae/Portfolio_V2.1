@@ -64,6 +64,9 @@
 	<!-- Favicon -->
 	<link rel="shortcut icon" type="image/ico" href="img/favicon.ico" />
 
+	<!-- ScrollReveal -->
+	<script src="https://unpkg.com/scrollreveal"></script>
+	
 	<!--[if lt IE 9]-->
 	<script src="js/html5shiv.min.js"></script>
 	<!--[endif]-->
@@ -96,13 +99,13 @@
 				<!-- links -->
 				<ul class="nav navbar-nav navbar-right">
 					<li><a href="creative.html" data-scroll-nav="0" class="active">Accueil</a></li>
-					<li><a href="#" data-scroll-nav="1">A Propos</a></li>
-					<li><a href="#" data-scroll-nav="2">Compétences</a></li>
+					<li><a href="#" data-scroll-nav="1">A Propos</a></li>					
 					<!-- <li><a href="#" data-scroll-nav="3">Services</a></li> -->
 					<!-- <li><a href="#" data-scroll-nav="4">Clients</a></li> -->
-					<li><a href="#" data-scroll-nav="5">Portfolio</a></li>
+					<li><a href="#" data-scroll-nav="2">Portfolio</a></li>
+					<li><a href="#" data-scroll-nav="3">Communauté</a></li>
 					<!-- <li><a href="#" data-scroll-nav="6">Blog</a></li> -->
-					<li><a href="#" data-scroll-nav="7">Contact</a></li>
+					<li><a href="#" data-scroll-nav="4">Contact</a></li>
 				</ul>
 			</div><!-- /.navbar-collapse -->
 		</div><!-- /.container -->
@@ -116,12 +119,12 @@
 				<img src="/img/photo-profil.png" alt="" class="img-fluid photo-profil">
 				<div class="v-middle">
 					<div class="caption">
-						<h4>Priscilla Roy</h4>
-						<h1>Développeuse Web</h1>
+						<h4 class="tagline">Priscilla Roy</h4>
+						<h1 class="punchline">Développeuse Web</h1>
 						<div class="type">
 							<h3></h3>
 						</div>
-						<a href="mailto:priscilla.roy@itfy.io" target="_blank" rel="noopener noreferrer">
+						<a href="mailto:priscilla.roy@itfy.io" target="_blank" rel="noopener noreferrer" class="CTA">
 							<span class="botn">Contactez-moi<i class="icon ion-ios-paperplane"></i></span>
 						</a>
 					</div>
@@ -807,7 +810,7 @@
 	<!--====== End Numbers ======-->
 
 	<!--====== Services ======-->
-	<section class="services section-padding" data-scroll-index="3">
+	<section class="services section-padding">
 		<div class="container">
 
 			<div class="section-head">
@@ -871,7 +874,7 @@
 	<!--====== End Services ======-->
 
 	<!--====== Clients ======-->
-	<section class="clients section-padding" data-scroll-index="4">
+	<section class="clients section-padding">
 		<div class="container">
 			<div class="row">
 
@@ -923,7 +926,7 @@
 	<!--====== End Clients ======-->
 
 	<!--====== Portfolio ======-->
-	<section class="portfolio section-padding" data-scroll-index="5">
+	<section class="portfolio section-padding" data-scroll-index="2">
 		<div class="container">
 
 			<div class="section-head">
@@ -1242,7 +1245,7 @@
 	<!--====== End Portfolio ======-->
 
 	<!--====== Hire ======-->
-	<div class="hire section-padding">
+	<div class="hire section-padding" data-scroll-index="3">
 		<div class="container">
 
 			<div class="row">
@@ -1265,7 +1268,7 @@
 			</div>
 
 			<!--====== Services ======-->
-			<section class="services section-padding" data-scroll-index="3">
+			<section class="services section-padding">
 				<div class="container">
 
 					<div class="row">
@@ -1317,7 +1320,7 @@
 								<!-- svg end -->
 								<h6 class="hire-service-title">L'assurance</h6>
 								<p>Vous approvisionnez le compte ITfy selon le montant de la prestation, puis en fin de mission vous
-									validez puis débloquez les fond pour que je sois rémunérée.</p>
+									validez puis débloquez les fonds pour que je sois rémunérée.</p>
 							</div>
 						</div>
 
@@ -1442,7 +1445,7 @@
 	<!--====== End Blog ======-->
 
 	<!--====== Contact ======-->
-	<section class="contact section-padding" data-scroll-index="7">
+	<section class="contact section-padding" data-scroll-index="4">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-7">
@@ -1547,11 +1550,11 @@
 
 	<!-- jQuery -->	
 	<script
-  src="http://code.jquery.com/jquery-3.4.1.min.js"
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
   integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
   crossorigin="anonymous"></script>	
 	<script
-  src="http://code.jquery.com/jquery-migrate-3.1.0.min.js"
+  src="https://code.jquery.com/jquery-migrate-3.1.0.min.js"
   integrity="sha256-ycJeXbll9m7dHKeaPbXBkZH8BuP99SmPm/8q5O+SbBc="
   crossorigin="anonymous"></script>
 
@@ -1559,6 +1562,9 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
 		integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">
 	</script>
+
+	<!-- ScrollReveal -->	
+	<script src="js/scrollReveal.js"></script>
 
 	<!-- scrollIt -->
 	<script src="js/scrollIt.min.js"></script>
