@@ -1049,6 +1049,10 @@ margin-right: auto;
   transition: all .5s;
 }
 
+.hire .content .subtitle{
+text-transform: uppercase;
+}
+
 .hire .botn{
   font-size: 20px;
   padding: 9px 50px;
@@ -1104,6 +1108,16 @@ margin-right: auto;
 
 .hire .item img {
   width: 40%;
+  margin-bottom: 10px;
+}
+
+.hire .item .service {
+  width: 45%;  
+}
+
+.hire .item .accompagnement,
+.hire .item .trophe {
+  width: 33%;   
 }
 
 .hire-service-title {
