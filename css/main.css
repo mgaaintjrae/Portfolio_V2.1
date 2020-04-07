@@ -93,9 +93,10 @@ h6 {
 
 .v-middle {
   position: absolute;
+  /* width: 60%; */
   width: 100%;
-  top: 45%;
-  left: 20%;
+  top: 50%;
+  left: 0;
   /* right: 20%; */
   -webkit-transform: translate(0%, -50%);
   -moz-transform: translate(0%, -50%);
@@ -104,7 +105,13 @@ h6 {
   transform: translate(0%, -50%);
 }
 
-.overlay-info.v-middle {
+/* @media screen and (max-width: 480px) {
+  .header h1 {
+    font-size: 33px !important;
+  }
+} */
+
+.overlay-info {
   position: absolute;
   width: 100%;
   top: 45%;
@@ -119,8 +126,10 @@ h6 {
 @media screen and (max-width: 1024px) {
   .v-middle {
     left: 0;
+
   }
-  .photo-profil{
+
+  .photo-profil {
     display: none;
   }
 }
